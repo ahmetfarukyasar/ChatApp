@@ -120,12 +120,20 @@ The app will be available at [http://localhost:5173](http://localhost:5173) by d
 
 ## 🔑 Environment Variables
 
-Create a `.env` file inside the backend directory with the following variables:
+Copy `.env` files inside the backend and frontend directories with the following variables:
+
+Backend:
 
 ```env
 FRONTEND_URL=http://locahost:5173(by default)
 MONGO_URL=your_mongodb_connection_string
 SECRET_KEY=your_secret_key
+```
+
+Frontend:
+
+```env
+VITE_BACKEND_URL=backend_server_url
 ```
 
 ---
